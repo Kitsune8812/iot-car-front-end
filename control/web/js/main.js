@@ -7,7 +7,7 @@ let detener = document.getElementById('detener');
 let mensaje = document.getElementById('mensaje');
 function callApi(estatus) {
     axios
-    .get('http://localhost/iot-car-control/back-end/apis/setRegistro.php?valorEstatus='+estatus)
+    .get('http://18.130.169.247/iot-car-control/back-end/apis/setRegistro.php?valorEstatus='+estatus)
   .then(function (response) {
     // handle success
     console.log(response);
